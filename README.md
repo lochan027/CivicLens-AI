@@ -38,7 +38,7 @@ CivicLens is an AI-powered platform that transforms complex government communica
 4. **Explore the results** - simplified text, bias detection, and fact-checking
 5. **Toggle accessibility features** - dyslexia font, text-to-speech
 
-## 🏆 Hackathon Highlights
+## 🏆 Key Highlights
 
 ### 🎯 **AI for Social Good**
 - **Real-world Impact**: Directly helps citizens understand government communications
@@ -105,7 +105,7 @@ CivicLens is an AI-powered platform that transforms complex government communica
 
 ## 🎯 Demo Examples
 
-The application includes four carefully crafted examples perfect for hackathon presentations:
+The application includes four carefully crafted examples perfect for demonstrations:
 
 ### 1. **Government Transportation Notice**
 - Complex ADA compliance language
@@ -136,8 +136,8 @@ Simply visit **[https://civiclens-ai.netlify.app](https://civiclens-ai.netlify.a
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/civiclens-hackathon.git
-   cd civiclens-hackathon
+   git clone https://github.com/your-username/civiclens.git
+   cd civiclens
    ```
 
 2. **Install dependencies**
@@ -174,7 +174,7 @@ PERPLEXITY_API_KEY=your_perplexity_api_key_here
 ## 📊 Project Structure
 
 ```
-civiclens-hackathon/
+civiclens/
 ├── 🌐 public/
 │   └── favicon.svg              # Custom CivicLens favicon
 ├── 🎨 src/
@@ -211,7 +211,7 @@ civiclens-hackathon/
 - Scalable architecture for integration with government systems
 - Security-first approach with proper data handling
 
-## 🏆 Hackathon Impact
+## 🏆 Impact & Innovation
 
 ### **Social Good**
 - **Democratizes Information**: Makes government communications accessible to all
@@ -249,16 +249,6 @@ We welcome contributions to make CivicLens even better:
 
 MIT License - Feel free to use this project as a foundation for your own applications.
 
-## 🏆 Hackathon Submission
-
-**Team**: CivicLens  
-**Challenge**: AI for Social Good  
-**Live Demo**: [https://civiclens-ai.netlify.app](https://civiclens-ai.netlify.app)  
-**Repository**: [GitHub Repository](https://github.com/your-username/civiclens-hackathon)  
-**Presentation**: [Pitch Deck Link]
-
----
-
 ## 🌟 Built with ❤️ for Democracy
 
 **Making public information accessible to everyone, one document at a time.**
@@ -267,15 +257,9 @@ MIT License - Feel free to use this project as a foundation for your own applica
 
 ---
 
-### 📞 Contact
-
-- **Email**: [your-email@example.com]
-- **LinkedIn**: [Your LinkedIn Profile]
-- **GitHub**: [Your GitHub Profile]
-
 ### 🔗 Links
 
 - **Live Demo**: [https://civiclens-ai.netlify.app](https://civiclens-ai.netlify.app)
+- **Repository**: [GitHub Repository](https://github.com/your-username/civiclens)
 - **Documentation**: [Full Documentation]
 - **API Docs**: [API Documentation]
-- **Video Demo**: [Demo Video Link]
