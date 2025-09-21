@@ -29,6 +29,10 @@ function App() {
   const handleGetStarted = () => {
     setCurrentPage('home');
   };
+
+  const handleBackToLanding = () => {
+    setCurrentPage('landing');
+  };
   if (error) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50 flex items-center justify-center">
@@ -55,7 +59,7 @@ function App() {
         <LandingPage onGetStarted={handleGetStarted} />
       )}
       {currentPage === 'home' && (
-        <HomePage onTextSubmit={handleTextSubmit} loading={loading} />
+        <HomePage onTextSubmit={handleTextSubmit} loading={loading} onBackToLanding={handleBackToLanding} />
       )}
       {currentPage === 'results' && results && (
         <ResultsPage results={results} onBack={handleBack} />

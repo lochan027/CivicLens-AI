@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
-import { Upload, FileText, AlertCircle, Loader2 } from 'lucide-react';
+import { Upload, FileText, AlertCircle, Loader2, ArrowLeft } from 'lucide-react';
 import { uploadFile } from '../utils/fileUtils';
 import { demoExamples } from '../data/demoExamples';
 
 interface HomePageProps {
   onTextSubmit: (text: string) => void;
   loading: boolean;
+  onBackToLanding: () => void;
 }
 
-export const HomePage: React.FC<HomePageProps> = ({ onTextSubmit, loading }) => {
+export const HomePage: React.FC<HomePageProps> = ({ onTextSubmit, loading, onBackToLanding }) => {
   const [text, setText] = useState('');
   const [isDragOver, setIsDragOver] = useState(false);
   const [uploadError, setUploadError] = useState<string | null>(null);
@@ -70,6 +71,14 @@ export const HomePage: React.FC<HomePageProps> = ({ onTextSubmit, loading }) => 
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50">
       <div className="container mx-auto px-4 py-8">
         <div className="max-w-4xl mx-auto">
+          {/* Back Button */}
+          <button
+            onClick={onBackToLanding}
+            className="mb-6 flex items-center text-gray-600 hover:text-gray-800 transition-colors"
+          >
+            <ArrowLeft className="h-5 w-5 mr-2" />
+            Back to Homepage
+          </button>
           {/* Header */}
           <div className="text-center mb-8">
             <div className="flex items-center justify-center mb-4">
