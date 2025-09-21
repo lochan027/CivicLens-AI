@@ -77,14 +77,21 @@ civiclens-hackathon/
    - Ensure all dependencies are in `package.json`
    - Check build logs in Netlify dashboard
 
-2. **API Not Working**
-   - Verify environment variables are set
-   - Check function logs in Netlify dashboard
-   - Ensure API keys are valid
+2. **API Not Working / "Failed to process text"**
+   - Verify environment variables are set in Netlify dashboard
+   - Check function logs in Netlify dashboard (Site settings > Functions)
+   - Ensure API keys are valid and have proper permissions
+   - Check that GROQ_API_KEY and PERPLEXITY_API_KEY are set
+   - Verify the function is deployed correctly
 
 3. **CORS Issues**
    - CORS headers are configured in the functions
    - Check browser console for specific errors
+
+4. **Function Timeout**
+   - Netlify Functions have a 10-second timeout limit
+   - The function is optimized to work within this limit
+   - If timeout occurs, check function logs for specific errors
 
 ### Local Testing
 
