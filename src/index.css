@@ -1,9 +1,9 @@
+/* OpenDyslexic Font Integration */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* OpenDyslexic Font Integration */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 
 /* Custom dyslexic-friendly font fallback */
 .font-dyslexia {
